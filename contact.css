@@ -1,0 +1,56 @@
+body{
+    background-color: #222222;
+}
+/*Top Navigation bar*/
+.topnav{
+    overflow: hidden;
+    background-color: #101010;
+    font-size: 20px;
+    padding: 10px; 
+}
+.topnav_right {
+    float: right;
+}
+.nav_text{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: white;
+    margin: 5px;
+}
+.topnav a:hover{
+    color: red;
+}
+
+.main{
+    background-image: url(https://i.pinimg.com/736x/7d/98/84/7d98840fdff1b2e7cd508cc7f3a17403.jpg);
+    background-repeat: no-repeat;
+    background-size: 80% 100%;
+    background-position: 50%;
+    opacity: 0.6;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 80px;
+
+    
+}
+/*Text*/
+.tittle_1{
+    font-size: 40px;
+    color: white;
+    text-align: center;
+}
+.text_1{
+    font-size: 20px;
+}
+.pictures{
+    padding-top: 20px;
+    margin-left: 10%;
+}
+img{
+    border-radius: 5px;
+}
+p{
+    color: white;
+    text-align: center;
+}

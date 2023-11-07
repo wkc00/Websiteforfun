@@ -1,0 +1,70 @@
+body{
+    background-color: #222222;
+}
+/*Top Navigation bar*/
+.topnav{
+    overflow: hidden;
+    background-color: #101010;
+    font-size: 20px;
+    padding: 10px; 
+}
+.topnav_right {
+    float: right;
+}
+.nav_text{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: white;
+    margin: 5px;
+}
+.topnav a:hover{
+    color: red;
+}
+
+.main{
+    background-image: url(https://i.pinimg.com/736x/7d/98/84/7d98840fdff1b2e7cd508cc7f3a17403.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: 50%;
+    opacity: 0.8;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 12rem;
+
+    
+}
+/*Text*/
+.tittle_1{
+    font-size: 40px;
+    color: white;
+    text-align: center;
+}
+.text_1{
+    font-size: 20px;
+}
+/*Pics*/
+.pictures{
+    background-color: #333333;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+img{
+    border-radius: 10px;
+    padding-left: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+/*Credits*/
+.credits_thingy{
+    margin-top: -10px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aliceblue;
+    height: 12rem;
+}
+.yes{
+    padding: 160px;
+    text-align: center;
+    font-size: 14px;
+}
