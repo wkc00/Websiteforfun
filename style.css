@@ -1,74 +1,61 @@
-body{
-    background-color: #222222;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
 }
 /*Top Navigation bar*/
 .topnav{
-    overflow: hidden;
     background-color: #101010;
     font-size: 20px;
     padding: 10px; 
 }
-.topnav_right {
-    float: right;
-}
 .nav_text{
-    font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
     color: white;
     margin: 5px;
 }
 .topnav a:hover{
-    color: red;
+    color: black;
+    background-color: #777;
 }
-
+/*pic thingy*/
 .main{
-    background-image: url(https://i.pinimg.com/736x/7d/98/84/7d98840fdff1b2e7cd508cc7f3a17403.jpg);
+    background-image: url(https://pbs.twimg.com/media/FMdBz70WQAMFMFl.jpg);
     background-repeat: no-repeat;
-    background-size: 100% 100%;
-    background-position: 50%;
-    opacity: 0.8;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    background-size: 100%;
     text-align: center;
-    padding: 12rem;
-
-    
+    padding-bottom: 15%;
 }
+
 /*Text*/
 .tittle_1{
-    font-size: 40px;
+    font-size: 120%;
+    padding-top: 10%;
     color: white;
-    text-align: center;
 }
-.text_1{
-    font-size: 20px;
-}
+
 /*Pics*/
-.pictures{
-    background-color: #333333;
-    padding-top: 20px;
-    padding-bottom: 20px;
+.pic{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 20px;
+    padding: 5px;
+    background-color: white;
+    border-radius: 30px;
 }
-.img_1{
-    border-radius: 10px;
-    padding-left: 10px;
-    margin-left: 8%;
-    margin-right: 0 ;
+.container{
+    column-count: 4;
+    max-width: 10000px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color:#333333 ;
+}
 
-}
-img{
-    margin-left : 8% ;
-}
-
-/*Credits*/
-.credits_thingy{
-    margin-top: -10px;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: aliceblue;
-    height: 12rem;
-}
-.yes{
-    padding: 160px;
+/*Footer*/
+.footer{
     text-align: center;
-    font-size: 14px;
+    padding: 1%;
+    background-color: #f1f1f1;
 }
